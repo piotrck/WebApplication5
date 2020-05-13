@@ -13,9 +13,9 @@ namespace WebApplication4.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GameController : BaseController<Game, EntityFrameworkGameRepository>
+    public class GamesController : BaseController<Game, EntityFrameworkGameRepository>
     {
-        public GameController(EntityFrameworkGameRepository repository) : base(repository)
+        public GamesController(EntityFrameworkGameRepository repository) : base(repository)
         {
 
         }

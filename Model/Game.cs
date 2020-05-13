@@ -17,7 +17,6 @@ namespace WebApplication4.Model
 
         [Required]
         [StringLength(20)]
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         public string Genre { get; set; }
 
         [DataType(DataType.Date)]
